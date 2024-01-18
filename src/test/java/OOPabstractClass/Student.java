@@ -1,5 +1,6 @@
 package OOPabstractClass;
 
+// Si aici la fel , studentul nu munceste, nu are concediu dar totusi suntem nevoiti sa avem aceste metode
 public class Student extends Persoana {
     @Override
     public void munceste() {

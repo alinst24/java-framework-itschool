@@ -5,6 +5,7 @@ public class Student extends Persoana implements StudentInt{
         super(nume, prenume, varsta);
     }
 
+    // si astfel cand implementam ne va da numarul(respectiv 4)de metode abstracte specifice de acest Student
     @Override
     public void mergeLaFacultate() {
         System.out.println("Studentul merge la facultate.");

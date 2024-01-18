@@ -2,8 +2,8 @@ package OOPabstractClass;
 
 public abstract class Persoana {
 
-        // Sa facem o clasa sa fie abstracta adaugam cuvantul "abstract" intre public si class
-    // O clasa abstracta poate sau nu sa contina metode abstracte
+        // Sa facem o clasa sa fie abstracta adaugam cuvantul "abstract" intre public si class    (si are o alta iconita)
+    // O clasa abstracta poate sau nu sa contina metode abstracte   (diferenta dintre o clasa si o clasa abstracta)
     // O clasa abstracta se mosteneste
     // O clasa abstracta poate implementa o interfata
     // O clasa abstracta poate avea un constructor , insa nu putem face un obiect
@@ -25,6 +25,7 @@ public abstract class Persoana {
 
     public abstract void mergeInRestante();
 
+
     public void verificaVarsta(Integer varsta){
 
         if (varsta>=18){
@@ -34,4 +35,7 @@ public abstract class Persoana {
             System.out.println("Persoana este minora.");
         }
     }
+
+    // Deci putem avea si metode cu body si metode abstracte intr-o clasa abstracta (pe cand intr-o clasa simpla nu)
+    // Iar ulterior am facut o clasa noua (Angajat)
 }

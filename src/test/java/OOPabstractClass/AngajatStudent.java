@@ -1,5 +1,6 @@
 package OOPabstractClass;
 
+// Aici face sens indiferent ca avem clasa abstracta sau interfata sa definim aceste comportamente
 public class AngajatStudent extends Persoana{
     @Override
     public void munceste() {
