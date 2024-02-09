@@ -7,7 +7,7 @@ public class Vacanta {
     public Integer value1 = 10;
     public String value2="Alin";
     // Primitive: int, boolean, char, float, double, short, long      (raman la valoarea intiala)
-    // Non-primitive : restul(String-ul !!,multimi(array,liste,hashmap,),objects) (Integer,Boolean,Double,Char...)
+    // Non-primitive : restul(înseamnă că nu pot fi modificate direct. Orice operație care pare să modifice un șir, de fapt, creează un nou obiect String care conține rezultatul modificării.) !!,multimi(array,liste,hashmap,),objects) (Integer,Boolean,Double,Char...)
 
     // Primitivele isi pierd modificarile in momentul cand ies din metoda respectiva, pe cand referencetype(adica non-primitivele) isi pastreaza modificarea
     public static Integer value3=10;           // static metine valoarea la o primitiva     ; final = valoarea finala pe care o adaugam , nu mai poate sa fie modificata

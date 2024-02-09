@@ -4,7 +4,7 @@ public class Student extends Persoana{
 
     public void metoda(){
 
-        metodaProtected();
+        metodaProtected();       // cand am facut mostenirea , ne sunt vizibile doar 2 metode ; vizibilitatea este restransa in acelasi pachet
         metodaPublica();
     }
 }
